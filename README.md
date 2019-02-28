@@ -1,6 +1,6 @@
 # shadowsocks-qrcode-docker
 
-Integrate [official image](https://github.com/shadowsocks/shadowsocks-libev/blob/master/docker/alpine/Dockerfile) with QR code.
+Integrate [official image](https://github.com/shadowsocks/shadowsocks-libev/blob/master/docker/alpine/Dockerfile) with QR code. (V2ray is not supported)
 
 <p align="center">
   <img src="https://i.imgur.com/rdePegZ.png" width="600">
