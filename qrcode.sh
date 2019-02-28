@@ -1,5 +1,5 @@
 #!/bin/sh
-link=ss://$(echo -n ${METHOD}:${PASSWORD}@$(curl ifconfig.me -s):${SERVER_PORT} | base64)#${REMARK}
+link=ss://$(echo -n ${METHOD}:${PASSWORD} | base64)@$(curl ifconfig.me -s):${SERVER_PORT}#${REMARK}
 echo -e $link\\n
 echo -n $link | qrcode
 exec ss-server \
