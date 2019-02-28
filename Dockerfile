@@ -1,4 +1,4 @@
-FROM shadowsocks/shadowsocks-libev
+FROM shadowsocks/shadowsocks-libev:v3.2.3
 
 ENV REMARK=
 
