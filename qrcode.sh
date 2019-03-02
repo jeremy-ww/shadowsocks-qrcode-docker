@@ -10,4 +10,4 @@ ss-server \
       -t $TIMEOUT \
       -d $DNS_ADDRS \
       -u \
-      $ARGS --plugin v2ray-plugin --plugin-opts "server"
+      $ARGS
